@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Me For Water – Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Ask Me For Water</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="list.html">The List</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <h2>Contact Us</h2>
+    <p>If you have questions, suggestions or would like to get involved in other ways, please reach out.</p>
+    <form action="mailto:devin.askmeforwater@gmail.com" method="post" enctype="text/plain">
+        <div>
+            <label for="your-name">Name</label>
+            <input type="text" id="your-name" name="your-name" required>
+        </div>
+        <div>
+            <label for="your-email">Email</label>
+            <input type="email" id="your-email" name="your-email" required>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+    <p>Alternatively, email us directly at <a href="mailto:devin.askmeforwater@gmail.com">devin.askmeforwater@gmail.com</a> or connect with us on social media.</p>
+</main>
+</body>
+</html>

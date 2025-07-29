@@ -1,0 +1,157 @@
+/*
+ * Global styles for the Ask Me For Water website.
+ *
+ * This stylesheet defines a simple, clean layout using a
+ * blue colour palette inspired by water. It includes styling
+ * for the header, navigation, forms and tables. Feel free to
+ * tweak the colours and fonts to better suit your brand.
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header and navigation */
+header {
+    background-color: #0b486b; /* dark blue reminiscent of deep water */
+    color: white;
+    padding: 10px 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: text-decoration 0.2s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* General page layout */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Hero section on home page */
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0b486b;
+}
+
+.hero p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0b486b;
+    colour: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #0e639b;
+}
+
+/* Table styles for The List page */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px 12px;
+}
+
+th {
+    background-color: #e0f7fa; /* light blue for table headers */
+}
+
+/* Form styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #0b486b;
+    colour: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0e639b;
+}

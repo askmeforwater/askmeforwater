@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Me For Water – Join Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Ask Me For Water</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="list.html">The List</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <h2>Join the Network</h2>
+    <p>If you’re able to offer clean drinking water to someone nearby, we’d love to add you to our public directory. Please fill out the form below. Your information will only be used to list you in our network.</p>
+    <form action="https://example.com" method="post">
+        <div>
+            <label for="name">Name or Organization</label>
+            <input type="text" id="name" name="name" placeholder="Your name or organization" required>
+        </div>
+        <div>
+            <label for="location">Location (City, State)</label>
+            <input type="text" id="location" name="location" placeholder="City, State" required>
+        </div>
+        <div>
+            <label for="contact">Contact Information (Email, Phone, Social)</label>
+            <input type="text" id="contact" name="contact" placeholder="How people should reach you" required>
+        </div>
+        <div>
+            <label for="notes">How can you help?</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Brief description of what you can offer" required></textarea>
+        </div>
+        <div>
+            <label><input type="checkbox" name="consent" required> I consent to have my information publicly listed</label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <p><em>Note: You can replace this form with a Google Form or other service. We’ll embed it here once it’s ready.</em></p>
+</main>
+</body>
+</html>
